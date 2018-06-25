@@ -1,4 +1,4 @@
-# Quick Start on Protobuf in python
+# Quick Start on Protobuf in Python3
 June'18
 
 Reference: https://developers.google.com/protocol-buffers/docs/pythontutorial
@@ -20,7 +20,7 @@ pip install protobuf
    ```
    you will see a generated addressbook_pb2.py 
 
-3. Go through ```deploy_addressbook_pb2.ipynb```
+3. Go through ```deploy_addressbook_pb2.ipynb``` and the [reference tutorial](https://developers.google.com/protocol-buffers/docs/pythontutorial)
 
 4. Below is an example of using generated protobuf for an application, execute below script to create entry on addressbook 'myaddressbook.pb'
    ```python3 write_addressbook.py myaddressbook.pb```
